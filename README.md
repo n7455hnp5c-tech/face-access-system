@@ -62,3 +62,22 @@ PoC проверяет Decision Engine и два обязательных сце
 ```text
 decision: allow
 turnstile_command: open
+```
+### Risky path
+
+Система работает в offline-режиме с устаревшим кэшем.
+
+Ожидаемый результат:
+
+```text
+decision: manual_review
+turnstile_command: keep_closed
+```
+### Запуск PoC
+```bash
+python3 poc.py
+```
+При успешном выполнении smoke-тестов программа выводит:
+```text
+    Smoke tests: PASSED
+```
