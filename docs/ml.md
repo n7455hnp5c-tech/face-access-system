@@ -279,4 +279,3 @@ Validation set должен отражать реальные условия э�
 3. pretrained ArcFace-подобный embedding model;
 4. cosine similarity;
 5. локальный FAISS/HNSW index;
-6
